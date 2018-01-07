@@ -15,6 +15,8 @@ class Neuron {
 public:
 	Neuron(double val);
 
+	void setVal(double val);
+
 	// Fast sigmoid Function
 	// f(x) = x /(1 + |x|)
 	void activate();

@@ -15,6 +15,13 @@ Neuron::Neuron(double val)
 		derivative();
 }
 
+void Neuron::setVal(double val)
+{
+	this->val = val;
+			activate();
+			derivative();
+}
+
 // Fast sigmoid Function
 // f(x) = x /(1 + |x|)
 void Neuron::activate()
