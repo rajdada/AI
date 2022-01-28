@@ -1,2 +1,3 @@
 # AI
-This repository contains some AI example codes
+
+Basic neural network supervised learning
